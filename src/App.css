@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flex-container {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.centered-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  text-align: start;
+}
+
+.lable_text {
+  color: #0da6c6;
+  font: bold;
+}
+.input_box input {
+  padding: 20px;
+  width: 400px;
+  border-radius: 7px;
+  border: none;
+  border: 1px solid #43495c;
+  background: transparent;
+}
+.time {
+  font-family: sans-serif, monospace;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0da6c6;
+  gap: 1%;
+}
